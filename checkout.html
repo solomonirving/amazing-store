@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkout-media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <title>Amazon Clone</title>
+</head>
+<body class="checkout__body">
+    
+    <div class="nav">
+
+        <div class="header__logo">
+            <a href="index.html">
+            <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="header__search">
+            <i id="header__searchIcon" class="fa fa-search"></i>
+                <input class="header__searchInput" type="text"></input>
+        </div>
+
+        <div class="header__link">
+            <div class="header__option">
+                <span class="header__optionLineOne">Hello</span>
+                <span class="header__optionLineTwo">Sign In</span>
+            </div>
+        </div>
+
+        <div class="header__link">
+            <div class="header__option">
+                <span class="header__optionLineOne">Returns</span>
+                <span class="header__optionLineTwo">& Orders</span>
+            </div>
+        </div>
+        
+        <div class="header__link">
+            <div class="header__option">
+                <span class="header__optionLineOne">Your</span>
+                <span class="header__optionLineTwo">Prime</span>
+            </div>
+        </div>
+
+        <div class="header__link">
+            <div class="header__optionBasket">
+                <span class="header__optionLineTwo">
+                    <a href="checkout.html">
+                    <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <span class="shopping-cart-count">0</span>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="checkout__products">
+        
+        <div class="checkout__banner">
+            <div class="basket">
+                
+                <div class="your__basket">
+                    <img class="checkout__banner__image" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" alt="" >
+                    <h2>Your Shopping Basket</h2>
+
+                    <div class="basket__item">
+
+                    </div>
+                </div>
+                <div class="checkout__right">
+                    <h1 class="subtotal__label">Subtotal</h1>
+                        <div class="price__box">
+                            <div class="box">
+                                <p>Subtotal (<span id="shopping-cart-count" class="subtotal-count">0</span> items): $<span class="subtotal-cost">0</span><span class="zero">.00<span>
+                                </p>
+                                <p><input type="checkbox" name="" id=""> 
+                                    This order contains a gift
+                                </p>
+                                <button class="button">Proceed to Checkout</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="empty">
+                <h2>Your Shopping Basket is Empty</h2>
+                <p>You have no items in your basket. To buy one or more items, click "Add to Basket" next to the item.</p>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+
+    
+    <script src="script2.js"></script>
+</body>
+</html>
